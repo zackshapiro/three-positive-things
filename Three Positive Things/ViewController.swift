@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import CoreData
 
 class ViewController: UIViewController {
     @IBOutlet weak var firstField: UITextField!
@@ -33,22 +34,26 @@ class ViewController: UIViewController {
         var second = secondField.text
         var third = thirdField.text
         
-        var obj = [
-            "first": first,
-            "second": second,
-            "third": third
-        ]
+        let appDelegate = UIApplication.sharedApplication().delegate as AppDelegate
+        let managedContext = appDelegate.managedObjectContext!
         
-        println(obj)
+        // Save the entry
+        var newEntry = NSEntityDescription.insertNewObjectForEntityForName("Entries", inManagedObjectContext: managedContext) as NSManagedObject
+        newEntry.setValue(first, forKey: "firstEntry")
+        newEntry.setValue(second, forKey: "secondEntry")
+        newEntry.setValue(third, forKey: "thirdEntry")
+        newEntry.setValue(NSDate(), forKey: "date")
         
-        // if coredata responds with a 200, unhide the serverReturnLabel
+        managedContext.save(nil)
+        println(newEntry)
+        println("Object saved!")
+        
+        // if CoreData responds with success, unhide the serverReturnLabel
         // and show green text with a message of "your entry has been recorded"
         // else, red label, message "there was a problem saving your entry"
         
         // button setTitle back to 'Send'
         // submitButton.setTitle("Send", forState: UIControlState.Normal)
-        
-        // nice to have: don't let the user submit if any field is blank
     }
 }
 
