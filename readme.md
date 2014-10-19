@@ -7,4 +7,6 @@ Studies show that recording three positive things each day leads to an increase 
 
 Created by [Zack Shapiro](https://twitter.com/zackshapiro) and [Jasdev Singh](https://twitter.com/jasdev).
 
+Track our progress [here](https://trello.com/b/ndJ84jPy/3-positive-things)!
+
 Inspired by [Lift](http://lift.do) and the Lift community of over 10,500 people writing three positive things about their day each day.
