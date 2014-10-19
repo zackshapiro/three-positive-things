@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		518DBBFF19F449440059BDBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518DBBFE19F449440059BDBE /* AppDelegate.swift */; };
+		518DBC0219F449440059BDBE /* Three_Positive_Things.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 518DBC0019F449440059BDBE /* Three_Positive_Things.xcdatamodeld */; };
+		518DBC0419F449440059BDBE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518DBC0319F449440059BDBE /* ViewController.swift */; };
+		518DBC0719F449440059BDBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 518DBC0519F449440059BDBE /* Main.storyboard */; };
+		518DBC0919F449440059BDBE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 518DBC0819F449440059BDBE /* Images.xcassets */; };
+		518DBC0C19F449440059BDBE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 518DBC0A19F449440059BDBE /* LaunchScreen.xib */; };
+		518DBC1819F449440059BDBE /* Three_Positive_ThingsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518DBC1719F449440059BDBE /* Three_Positive_ThingsTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		518DBC1219F449440059BDBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 518DBBF119F449440059BDBE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 518DBBF819F449440059BDBE;
+			remoteInfo = "Three Positive Things";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		518DBBF919F449440059BDBE /* Three Positive Things.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Three Positive Things.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		518DBBFD19F449440059BDBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		518DBBFE19F449440059BDBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		518DBC0119F449440059BDBE /* Three_Positive_Things.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Three_Positive_Things.xcdatamodel; sourceTree = "<group>"; };
+		518DBC0319F449440059BDBE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		518DBC0619F449440059BDBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		518DBC0819F449440059BDBE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		518DBC0B19F449440059BDBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		518DBC1119F449440059BDBE /* Three Positive ThingsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Three Positive ThingsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		518DBC1619F449440059BDBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		518DBC1719F449440059BDBE /* Three_Positive_ThingsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Three_Positive_ThingsTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		518DBBF619F449440059BDBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		518DBC0E19F449440059BDBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		518DBBF019F449440059BDBE = {
+			isa = PBXGroup;
+			children = (
+				518DBBFB19F449440059BDBE /* Three Positive Things */,
+				518DBC1419F449440059BDBE /* Three Positive ThingsTests */,
+				518DBBFA19F449440059BDBE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		518DBBFA19F449440059BDBE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				518DBBF919F449440059BDBE /* Three Positive Things.app */,
+				518DBC1119F449440059BDBE /* Three Positive ThingsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		518DBBFB19F449440059BDBE /* Three Positive Things */ = {
+			isa = PBXGroup;
+			children = (
+				518DBBFE19F449440059BDBE /* AppDelegate.swift */,
+				518DBC0319F449440059BDBE /* ViewController.swift */,
+				518DBC0519F449440059BDBE /* Main.storyboard */,
+				518DBC0819F449440059BDBE /* Images.xcassets */,
+				518DBC0A19F449440059BDBE /* LaunchScreen.xib */,
+				518DBC0019F449440059BDBE /* Three_Positive_Things.xcdatamodeld */,
+				518DBBFC19F449440059BDBE /* Supporting Files */,
+			);
+			path = "Three Positive Things";
+			sourceTree = "<group>";
+		};
+		518DBBFC19F449440059BDBE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				518DBBFD19F449440059BDBE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		518DBC1419F449440059BDBE /* Three Positive ThingsTests */ = {
+			isa = PBXGroup;
+			children = (
+				518DBC1719F449440059BDBE /* Three_Positive_ThingsTests.swift */,
+				518DBC1519F449440059BDBE /* Supporting Files */,
+			);
+			path = "Three Positive ThingsTests";
+			sourceTree = "<group>";
+		};
+		518DBC1519F449440059BDBE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				518DBC1619F449440059BDBE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		518DBBF819F449440059BDBE /* Three Positive Things */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 518DBC1B19F449440059BDBE /* Build configuration list for PBXNativeTarget "Three Positive Things" */;
+			buildPhases = (
+				518DBBF519F449440059BDBE /* Sources */,
+				518DBBF619F449440059BDBE /* Frameworks */,
+				518DBBF719F449440059BDBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Three Positive Things";
+			productName = "Three Positive Things";
+			productReference = 518DBBF919F449440059BDBE /* Three Positive Things.app */;
+			productType = "com.apple.product-type.application";
+		};
+		518DBC1019F449440059BDBE /* Three Positive ThingsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 518DBC1E19F449440059BDBE /* Build configuration list for PBXNativeTarget "Three Positive ThingsTests" */;
+			buildPhases = (
+				518DBC0D19F449440059BDBE /* Sources */,
+				518DBC0E19F449440059BDBE /* Frameworks */,
+				518DBC0F19F449440059BDBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				518DBC1319F449440059BDBE /* PBXTargetDependency */,
+			);
+			name = "Three Positive ThingsTests";
+			productName = "Three Positive ThingsTests";
+			productReference = 518DBC1119F449440059BDBE /* Three Positive ThingsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		518DBBF119F449440059BDBE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = com.59thirty.com;
+				TargetAttributes = {
+					518DBBF819F449440059BDBE = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					518DBC1019F449440059BDBE = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 518DBBF819F449440059BDBE;
+					};
+				};
+			};
+			buildConfigurationList = 518DBBF419F449440059BDBE /* Build configuration list for PBXProject "Three Positive Things" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 518DBBF019F449440059BDBE;
+			productRefGroup = 518DBBFA19F449440059BDBE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				518DBBF819F449440059BDBE /* Three Positive Things */,
+				518DBC1019F449440059BDBE /* Three Positive ThingsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		518DBBF719F449440059BDBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				518DBC0719F449440059BDBE /* Main.storyboard in Resources */,
+				518DBC0C19F449440059BDBE /* LaunchScreen.xib in Resources */,
+				518DBC0919F449440059BDBE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		518DBC0F19F449440059BDBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		518DBBF519F449440059BDBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				518DBC0419F449440059BDBE /* ViewController.swift in Sources */,
+				518DBC0219F449440059BDBE /* Three_Positive_Things.xcdatamodeld in Sources */,
+				518DBBFF19F449440059BDBE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		518DBC0D19F449440059BDBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				518DBC1819F449440059BDBE /* Three_Positive_ThingsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		518DBC1319F449440059BDBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 518DBBF819F449440059BDBE /* Three Positive Things */;
+			targetProxy = 518DBC1219F449440059BDBE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		518DBC0519F449440059BDBE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				518DBC0619F449440059BDBE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		518DBC0A19F449440059BDBE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				518DBC0B19F449440059BDBE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		518DBC1919F449440059BDBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		518DBC1A19F449440059BDBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		518DBC1C19F449440059BDBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Three Positive Things/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		518DBC1D19F449440059BDBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Three Positive Things/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		518DBC1F19F449440059BDBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Three Positive ThingsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Three Positive Things.app/Three Positive Things";
+			};
+			name = Debug;
+		};
+		518DBC2019F449440059BDBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Three Positive ThingsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Three Positive Things.app/Three Positive Things";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		518DBBF419F449440059BDBE /* Build configuration list for PBXProject "Three Positive Things" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				518DBC1919F449440059BDBE /* Debug */,
+				518DBC1A19F449440059BDBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		518DBC1B19F449440059BDBE /* Build configuration list for PBXNativeTarget "Three Positive Things" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				518DBC1C19F449440059BDBE /* Debug */,
+				518DBC1D19F449440059BDBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		518DBC1E19F449440059BDBE /* Build configuration list for PBXNativeTarget "Three Positive ThingsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				518DBC1F19F449440059BDBE /* Debug */,
+				518DBC2019F449440059BDBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		518DBC0019F449440059BDBE /* Three_Positive_Things.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				518DBC0119F449440059BDBE /* Three_Positive_Things.xcdatamodel */,
+			);
+			currentVersion = 518DBC0119F449440059BDBE /* Three_Positive_Things.xcdatamodel */;
+			path = Three_Positive_Things.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 518DBBF119F449440059BDBE /* Project object */;
+}
