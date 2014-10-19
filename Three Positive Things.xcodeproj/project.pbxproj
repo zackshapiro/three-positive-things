@@ -14,6 +14,7 @@
 		518DBC0919F449440059BDBE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 518DBC0819F449440059BDBE /* Images.xcassets */; };
 		518DBC0C19F449440059BDBE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 518DBC0A19F449440059BDBE /* LaunchScreen.xib */; };
 		518DBC1819F449440059BDBE /* Three_Positive_ThingsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518DBC1719F449440059BDBE /* Three_Positive_ThingsTests.swift */; };
+		AAE8BC1019F44D3E00B53404 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = AAE8BC0E19F44D3E00B53404 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		518DBC1119F449440059BDBE /* Three Positive ThingsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Three Positive ThingsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		518DBC1619F449440059BDBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		518DBC1719F449440059BDBE /* Three_Positive_ThingsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Three_Positive_ThingsTests.swift; sourceTree = "<group>"; };
+		AAE8BC0E19F44D3E00B53404 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 		518DBBF019F449440059BDBE = {
 			isa = PBXGroup;
 			children = (
+				AAE8BC0E19F44D3E00B53404 /* .gitignore */,
 				518DBBFB19F449440059BDBE /* Three Positive Things */,
 				518DBC1419F449440059BDBE /* Three Positive ThingsTests */,
 				518DBBFA19F449440059BDBE /* Products */,
@@ -195,6 +198,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAE8BC1019F44D3E00B53404 /* .gitignore in Resources */,
 				518DBC0719F449440059BDBE /* Main.storyboard in Resources */,
 				518DBC0C19F449440059BDBE /* LaunchScreen.xib in Resources */,
 				518DBC0919F449440059BDBE /* Images.xcassets in Resources */,
@@ -409,6 +413,7 @@
 				518DBC1D19F449440059BDBE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		518DBC1E19F449440059BDBE /* Build configuration list for PBXNativeTarget "Three Positive ThingsTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +422,7 @@
 				518DBC2019F449440059BDBE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
