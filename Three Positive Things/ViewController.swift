@@ -46,6 +46,7 @@ class ViewController: UIViewController {
         // else, red label, message "there was a problem saving your entry"
         
         // button setTitle back to 'Send'
+        // submitButton.setTitle("Send", forState: UIControlState.Normal)
         
         // nice to have: don't let the user submit if any field is blank
     }
