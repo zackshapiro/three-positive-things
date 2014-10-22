@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		512DB57319F78AED009BDFE6 /* PastEntriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512DB57219F78AED009BDFE6 /* PastEntriesViewController.swift */; };
 		518DBBFF19F449440059BDBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518DBBFE19F449440059BDBE /* AppDelegate.swift */; };
 		518DBC0219F449440059BDBE /* Three_Positive_Things.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 518DBC0019F449440059BDBE /* Three_Positive_Things.xcdatamodeld */; };
 		518DBC0419F449440059BDBE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518DBC0319F449440059BDBE /* ViewController.swift */; };
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		512DB57219F78AED009BDFE6 /* PastEntriesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PastEntriesViewController.swift; sourceTree = "<group>"; };
 		518DBBF919F449440059BDBE /* Three Positive Things.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Three Positive Things.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		518DBBFD19F449440059BDBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		518DBBFE19F449440059BDBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 			children = (
 				518DBBFE19F449440059BDBE /* AppDelegate.swift */,
 				518DBC0319F449440059BDBE /* ViewController.swift */,
+				512DB57219F78AED009BDFE6 /* PastEntriesViewController.swift */,
 				518DBC0519F449440059BDBE /* Main.storyboard */,
 				518DBC0819F449440059BDBE /* Images.xcassets */,
 				518DBC0A19F449440059BDBE /* LaunchScreen.xib */,
@@ -222,6 +225,7 @@
 				518DBC0419F449440059BDBE /* ViewController.swift in Sources */,
 				518DBC0219F449440059BDBE /* Three_Positive_Things.xcdatamodeld in Sources */,
 				518DBBFF19F449440059BDBE /* AppDelegate.swift in Sources */,
+				512DB57319F78AED009BDFE6 /* PastEntriesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
